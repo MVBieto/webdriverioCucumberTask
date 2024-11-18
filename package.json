@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test:execute:plan-prices": "wdio --cucumberOpts.tagExpression @test",
+    "test:execute:plan-prices": "wdio --cucumberOpts.tagExpression @plan-prices",
     "test:execute:custom": "wdio --cucumberOpts.tagExpression @custom",
     "test:execute:full-run": "wdio"
   },

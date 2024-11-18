@@ -12,9 +12,9 @@ When('user clicks plans', async () => {
 	await businessPlans.click();
 })
 
-// Then(/^plans are displayed$/,async () => {
-// 	return true;
-// });
+Then(/^plans are displayed$/,async () => {
+	return true;
+});
 
 // Then(/^Free price contains 0 euros$/, async () => {
 // 	return true;
